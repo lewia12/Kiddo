@@ -13,26 +13,17 @@
         android:theme="@style/Theme.Kiddo"
         tools:targetApi="31">
         <activity
-            android:name=".splashActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".SplashActivity"
-            android:exported="false">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
             android:name=".MainActivity"
-            android:exported="false" />
-    </application>
+            android:theme="@style/theme.App.Kiddosplashscreen"
+            android:label="Main Menu"
+            android:exported="true" >
+            <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+
+        <category android:name="android.intent.category.LAUNCHER" />
+    </intent-filter>
+    </activity>
+
+</application>
 
 </manifest>
